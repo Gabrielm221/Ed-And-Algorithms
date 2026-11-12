@@ -1,4 +1,6 @@
 package org.endAndAlgorithms;
+import org.endAndAlgorithms.algorithms.ordenation;
+
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -15,14 +17,16 @@ public class Main {
 
         do{
             System.out.println("Enter a number for the options: ");
-            System.out.println("1. Option 1");
-            System.out.println("2. Option 2");
+            System.out.println("1. Basic Algorithms");
+            System.out.println("2. Advanced Algorithms");
             System.out.println("0. Exit");
             option = scanner.nextInt();
 
             switch(option){
                 case 1 :
                     System.out.println("You selected Option 1.");
+                    ordenation.execute();
+
                     break;
 
                 case 2 :
